@@ -1,0 +1,128 @@
+.principal{
+    background-color: brown;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   /* align-content: space-around; */  
+}
+.caja1{
+    background-color: red;
+    margin: 5px;
+    height: 600px;
+    width: 300px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*flex-wrap: wrap;
+    */
+    
+    flex-grow: 1;
+  
+}
+.c1{
+    background-color: yellow;
+    margin: 5px;
+    height: 290px;
+    width: 150px;
+    /*display: flex;
+    flex-wrap: nowrap;*/
+    display: inline-block;
+   
+    
+
+    
+    
+}
+
+.c1-1{
+    background-color: blue;
+    margin: 5px;
+    height: 290px;
+    width: 150px;
+    /*flex-wrap: nowrap;*/
+    display: inline-block;
+   /* flex-direction: column;*/
+
+    
+}
+.c1-2{
+    background-color: yellow;
+    margin: 5px;
+    height: 150px;
+    width: 150px;
+    /*display: flex;
+    flex-wrap: nowrap;*/
+    display: inline-block;
+    
+    
+}
+      
+.caja2{
+    background-color: coral;
+    margin: 5px;
+    height: 600px;
+    width: 400px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    justify-content: space-around;
+
+}
+.c{
+    background-color: rgb(14, 153, 77);
+    margin: 5px;
+    height: 100px;
+    width: 200px;
+
+    font-size: 50px;
+
+}
+.caja3{
+    background-color: chocolate;
+    margin: 5px;
+    height: 600px;
+    width: 200px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+   
+}
+.p1{
+    margin: 5px;
+    width: 95%;
+    height: 130px;
+    background-color: black;
+    justify-content: center;
+        
+}
+.or{
+    margin: 5px;
+    width: 170px;
+    height: 150px;
+    background-color: blue;
+    justify-content: center;
+    display: inline-block;
+   
+    
+}
+.p2{
+    margin: 5px;
+    width: 95%;
+    height: 130px;
+    background-color: rgb(45, 83, 100);
+
+    
+}
+.or1{
+    margin: 5px;
+    width: 170px;
+    height: 150px;
+    background-color: blue;
+    display: inline-table;
+    display: inline-block;
+   
+}
